@@ -57,9 +57,9 @@ const CorporateFooter = () => {
             <div className="space-y-3 text-sm text-primary-foreground/60">
               <p>Mendoza, Argentina</p>
               <p>info@bravingroup.com</p>
-              <p>+54 9 261 415 985</p>
+              <p>+54 9 261 418 5985</p>
               <a
-                href="https://wa.me/549261415985"
+                href="https://wa.me/5492614185985"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 mt-2 text-primary hover:text-primary/80 transition-colors"

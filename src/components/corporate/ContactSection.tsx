@@ -11,7 +11,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const message = `Hola, soy ${formData.nombre}. ${formData.mensaje} — Email: ${formData.email}, Tel: ${formData.telefono}`;
-    window.open(`https://wa.me/549261415985?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/5492614185985?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -45,7 +45,7 @@ const ContactSection = () => {
 
             <div className="space-y-6">
               <a
-                href="https://wa.me/549261415985"
+                href="https://wa.me/5492614185985"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-sm bg-muted/50 hover:bg-muted transition-colors group"
@@ -55,7 +55,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground group-hover:text-primary transition-colors">WhatsApp</p>
-                  <p className="text-muted-foreground text-sm">+54 9 261 415 985</p>
+                  <p className="text-muted-foreground text-sm">+54 9 261 418 5985</p>
                 </div>
               </a>
 
@@ -73,7 +73,7 @@ const ContactSection = () => {
               </a>
 
               <a
-                href="tel:+549261415985"
+                href="tel:+5492614185985"
                 className="flex items-center gap-4 p-4 rounded-sm bg-muted/50 hover:bg-muted transition-colors group"
               >
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
@@ -81,7 +81,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-medium text-foreground group-hover:text-primary transition-colors">Teléfono</p>
-                  <p className="text-muted-foreground text-sm">+54 9 261 415 985</p>
+                  <p className="text-muted-foreground text-sm">+54 9 261 418 5985</p>
                 </div>
               </a>
 

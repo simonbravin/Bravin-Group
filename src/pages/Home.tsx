@@ -2,6 +2,7 @@ import CorporateHero from "@/components/corporate/CorporateHero";
 import AboutSection from "@/components/corporate/AboutSection";
 import ServicesSection from "@/components/corporate/ServicesSection";
 import ProjectsSection from "@/components/corporate/ProjectsSection";
+import AlliesSection from "@/components/corporate/AlliesSection";
 import CorporateTechnology from "@/components/corporate/CorporateTechnology";
 import ValuesSection from "@/components/corporate/ValuesSection";
 import CTASection from "@/components/corporate/CTASection";
@@ -16,6 +17,7 @@ const Home = () => {
       <ServicesSection />
       <ProjectsSection />
       <CorporateTechnology />
+      <AlliesSection />
       <ValuesSection />
       <CTASection />
       <ContactSection />

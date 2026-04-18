@@ -3,6 +3,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, CheckCircle } from "lucide-react";
 import techImage from "@/assets/technology-image.jpg";
+import vbtLogo from "@/assets/vbt-logo-white.png";
 
 const benefits = [
   "Mayor eficiencia en tiempos de obra",
@@ -83,9 +84,19 @@ const CorporateTechnology = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent" />
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="bg-secondary/80 backdrop-blur-sm rounded-sm p-6 border border-primary-foreground/10">
-                  <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-4">
-                    <span className="text-2xl font-serif text-primary">VBT</span>
-                  </div>
+                  <a
+                    href="https://www.visionlatam.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mb-4 inline-block rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-secondary"
+                    aria-label="Vision Building Technologies — sitio oficial"
+                  >
+                    <img
+                      src={vbtLogo}
+                      alt="Vision Building Technologies"
+                      className="h-12 w-auto max-w-[min(100%,220px)] object-contain object-left md:h-14"
+                    />
+                  </a>
                   <h3 className="text-lg font-serif mb-2">Vision Building Technologies</h3>
                   <p className="text-primary-foreground/60 text-sm">
                     Tecnología constructiva de avanzada integrada a nuestra propuesta de valor.

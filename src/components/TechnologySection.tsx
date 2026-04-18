@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { CheckCircle } from "lucide-react";
+import vbtLogo from "@/assets/vbt-logo-white.png";
 
 const benefits = [
   "Estructura monolítica, sólida y durable",
@@ -68,9 +69,19 @@ const TechnologySection = () => {
           >
             <div className="bg-card rounded-sm p-12 shadow-elegant">
               <div className="text-center">
-                <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-4xl font-serif text-primary">VBT</span>
-                </div>
+                <a
+                  href="https://www.visionlatam.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mx-auto mb-6 inline-flex rounded-sm bg-black px-5 py-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                  aria-label="Vision Building Technologies — sitio oficial"
+                >
+                  <img
+                    src={vbtLogo}
+                    alt="Vision Building Technologies"
+                    className="mx-auto h-14 w-auto max-w-[200px] object-contain"
+                  />
+                </a>
                 <h3 className="text-xl font-serif text-foreground mb-4">
                   Vision Building Technologies
                 </h3>
